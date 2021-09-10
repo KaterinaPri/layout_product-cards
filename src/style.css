@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+}
+  
+.body {
+  font-weight: 400;
+  font-family: Roboto, sans-serif;
+}
+  
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 170px;
+  height: 360px;
+  border: 0.5px solid #e9e9e9;
+  border-radius: 5px;
+  padding: 32px 15px 16px;
+}
+  
+.card-image {
+  display: flex;
+  justify-content: center;
+}
+  
+.card-image__imac {
+  width: 160px;
+  height: 134px;
+  margin: 0 19px 20px;
+}
+  
+.card__title {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  margin: 20px 1px 4px;
+  font-style: normal;
+}
+  
+.card__item-code {
+  display: flex;
+  justify-content: start;
+  color: #616070;
+  margin: 0 1px 8px;
+  font-size: 10px;
+  line-height: 15px;
+  height: 14px;
+}
+  
+.card-reviews {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 1px 12px;
+}
+  
+.reviews-block {
+  display: flex;
+}
+  
+.star-item {
+  background-repeat: no-repeat;
+  background-image: url(/images/star.svg);
+  width: 16px;
+  height: 16px;
+  padding-right: 4px;
+}
+  
+.star-item:nth-child(-n+4) {
+  background-image: url(/images/star-active.svg);
+}
+  
+.reviews-number {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 10px;
+  line-height: 14px;
+  color: #060b35;
+  width: 53px;
+  height: 16px;
+}
+  
+.card-price {
+  display: flex;
+  justify-content: space-between;
+  height: 18px;
+  margin: 12px 1px 16px;
+}
+  
+.price-title {
+  font-size: 12px;
+  line-height: 18px;
+  width: 32px;
+  height: 18px;
+  color: #616070;
+}
+  
+.price-number {
+  font-size: 16px;
+  line-height: 18px;
+  height: 18px;
+  display: flex;
+  justify-content: flex-end;
+  font-weight: bold;
+}
+  
+.card-button {
+  display: inline-block;
+  width: 166px;
+  height: 40px;
+  background-color: #00acdc;
+  border: 1px solid #00acdc;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 40px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+  
+a.card-button:hover {
+  width: 166px;
+  height: 40px;
+  border: 1px solid #00acdc;
+  background-color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  color: #00acdc;
+}
